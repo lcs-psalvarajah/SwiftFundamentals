@@ -10,11 +10,6 @@ import Cocoa
 
 var str = "hello"
 
-var int = 37
-
-int = 7
-
-int = 6_000_66
 
 
 
