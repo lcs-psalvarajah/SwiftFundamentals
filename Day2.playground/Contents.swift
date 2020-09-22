@@ -8,4 +8,14 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
  */
 import Cocoa
 
-var str = "Hello, playground"
+var str = "hello"
+
+var int = 37
+
+int = 7
+
+int = 6_000_66
+
+
+
+
