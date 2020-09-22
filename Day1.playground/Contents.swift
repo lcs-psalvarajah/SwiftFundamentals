@@ -62,6 +62,16 @@ var result = "Mr water bottle, \(str)"
 
 // Constants ( the value will stay the same and cant be changed)
 
+let jina = "really cool"
+
+
+// Annotations
+
+let album: String = "potatoes"
+let year: Int = 6
+let height: Double = 5.67
+let jinaSmart: Bool = true
+
 
 
 
