@@ -39,6 +39,7 @@ let colours2 = Set(["yellow","yellow", "orange", "black", "purple"])
 
 
 
+
 // TUPLES
 
     //you can change the values inside a tuple after you create it, but not the types of values (like using integers)
@@ -46,6 +47,8 @@ let colours2 = Set(["yellow","yellow", "orange", "black", "purple"])
 var name = (first: "jina", last: "salvarajah")
 name.0
 name.first
+
+
 
 
 // ARRAYS VS SETS VS TUPLES
@@ -66,7 +69,14 @@ let pythons = ["Eric", "Graham", "John", "Michael", "Terry", "Terry"]
 
 
 
+// DICTIONARIES
 
+let age = [
+    "Jina Salvarajah": 16,
+    "Jheeven Salvarajah": 19
+]
+ 
+age["Jina Salvarajah"]
 
 
 
