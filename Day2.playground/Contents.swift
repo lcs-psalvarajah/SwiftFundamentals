@@ -10,7 +10,7 @@ import Cocoa
 
 var str = "hello"
 
-// Arrays
+// ARRAYS
 
 let jina = "Jina Salvarajah"
 let jheeven = "Jheeven Salvarajah"
@@ -26,6 +26,16 @@ salvarajah [1]
 
 
 
+
+// SETS
+
+// the items are put in random order and items cant appear twice in a set
+
+let colours = Set(["yellow", "orange", "black", "purple"])
+
+// see here yellow is written twice and the duplicate gets ignored
+
+let colours2 = Set(["yellow","yellow", "orange", "black", "purple"])
 
 
 
