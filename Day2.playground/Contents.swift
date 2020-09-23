@@ -10,6 +10,21 @@ import Cocoa
 
 var str = "hello"
 
+// Arrays
+
+let jina = "Jina Salvarajah"
+let jheeven = "Jheeven Salvarajah"
+let vani = "Vani Dorisamy"
+let salva = "Salva Seeni"
+
+// lists out all the names
+
+let salvarajah = [jina, jheeven, vani, salva]
+
+// the names count from 0
+salvarajah [1]
+
+
 
 
 
