@@ -17,11 +17,11 @@ let jheeven = "Jheeven Salvarajah"
 let vani = "Vani Dorisamy"
 let salva = "Salva Seeni"
 
-// lists out all the names
+    // lists out all the names
 
 let salvarajah = [jina, jheeven, vani, salva]
 
-// the names count from 0
+    // the names count from 0
 salvarajah [1]
 
 
@@ -29,7 +29,7 @@ salvarajah [1]
 
 // SETS
 
-// the items are put in random order and items cant appear twice in a set
+    // the items are put in random order and items cant appear twice in a set
 
 let colours = Set(["yellow", "orange", "black", "purple"])
 
@@ -41,11 +41,30 @@ let colours2 = Set(["yellow","yellow", "orange", "black", "purple"])
 
 // TUPLES
 
-//you can change the values inside a tuple after you create it, but not the types of values (like using integers)
+    //you can change the values inside a tuple after you create it, but not the types of values (like using integers)
 
 var name = (first: "jina", last: "salvarajah")
 name.0
 name.first
+
+
+// ARRAYS VS SETS VS TUPLES
+
+    //If you need a specific, fixed collection of related values where each item has a precise position or name, you should use a TUPLE
+
+let address = (house: 555, street: "Taylor Swift Avenue", city: "Nashville")
+
+
+    // If you need a collection of values that must be unique or you need to be able to check whether a specific item is in there extremely quickly, you should use a SET
+
+let set = Set(["aardvark", "astronaut", "azalea"])
+
+
+    //If you need a collection of values that can contain duplicates, or the order of your items matters, you should use an ARRAY
+
+let pythons = ["Eric", "Graham", "John", "Michael", "Terry", "Terry"]
+
+
 
 
 
