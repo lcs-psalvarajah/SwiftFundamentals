@@ -78,6 +78,24 @@ let age = [
  
 age["Jina Salvarajah"]
 
+// DICTIONARY DEFAULT VALUES
+
+let favoriteIceCream = [
+    "Paul": "Chocolate",
+    "Sophie": "Vanilla"
+]
+
+favoriteIceCream["Paul"]
+
+    // But if we tried reading the favorite ice cream for Charlotte, we’d get back nil, meaning that Swift doesn’t have a value for that key
+
+favoriteIceCream["Charlotte"]
+
+    //We can fix this by giving the dictionary a default value of “Unknown”, so that when no ice cream is found for Charlotte we get back “Unknown” rather than nil:
+
+favoriteIceCream["Charlotte", default: "Unknown"]
+
+
 
 
 
