@@ -126,3 +126,52 @@ var result = Array<Int>()
 
 
 // ENUMERATIONS
+
+let grade = "failure"
+let grade2 = "failed"
+let grade3 = "fail"
+
+    //With enums we can define a Result type that can be either success or failure, like this:
+
+enum Grade {
+    case success
+    case failure
+}
+    //This stops you from accidentally using different strings each time.
+
+let grade4 = Grade.failure
+
+
+
+// ENUM ASSOCIATED VALUES
+
+enum Activity {
+    case running(speed: String)
+    case eating(food: String)
+    case singing(song: String)
+    case talking(topic: String)
+}
+let eating = Activity.eating(food: "rambutan")
+
+
+
+//ENUM RAW VALUES
+ 
+enum Planet: Int{
+    case mercury = 1
+    case venus = 2
+    case earth = 3
+    case mars = 4
+}
+
+let earth = Planet(rawValue: 3)
+
+
+
+
+
+
+
+
+
+
