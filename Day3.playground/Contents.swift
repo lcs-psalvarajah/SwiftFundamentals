@@ -12,3 +12,17 @@ import Cocoa
 var str = "Hello, playground"
 
 
+//Arithmetic operators
+
+let firstScore = 12
+let secondScore = 4
+
+let total = firstScore + secondScore
+let difference = secondScore - firstScore
+
+let product = firstScore * secondScore
+let division = secondScore / firstScore
+let remainder = 13 % secondScore
+
+
+
