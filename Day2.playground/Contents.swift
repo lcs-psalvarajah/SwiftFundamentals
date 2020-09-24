@@ -69,6 +69,7 @@ let pythons = ["Eric", "Graham", "John", "Michael", "Terry", "Terry"]
 
 
 
+
 // DICTIONARIES
 
 let age = [
@@ -77,6 +78,9 @@ let age = [
 ]
  
 age["Jina Salvarajah"]
+
+
+
 
 // DICTIONARY DEFAULT VALUES
 
@@ -97,5 +101,28 @@ favoriteIceCream["Charlotte", default: "Unknown"]
 
 
 
+//CREATING EMPTY COLLECTIONS
+
+var teams = [String: String]()
+
+teams["Jina"] = "Brown"
 
 
+var results = [Int]()
+
+    //empty set, This is because Swift has special syntax only for dictionaries and arrays; other types must use angle bracket syntax like sets.
+
+
+var words = Set<String>()
+
+var numbers = Set<Int>()
+
+    //create arrays and dictionaries with similar syntax
+
+var scores = Dictionary<String, Int>()
+
+var result = Array<Int>()
+
+
+
+// ENUMERATIONS
