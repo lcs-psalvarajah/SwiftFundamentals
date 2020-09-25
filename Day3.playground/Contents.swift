@@ -25,4 +25,20 @@ let division = secondScore / firstScore
 let remainder = 13 % secondScore
 
 
+// Operator overloading
 
+let mathScore = 87
+let doubleMath = 87 +87
+
+    //But + also joins strings, like this:
+
+let snitches = "Snitches get"
+let action = snitches + "stiches"
+
+    //You can even use + to join arrays, like this:
+
+let firstHalf = ["John", "Paul"]
+let secondHalf = ["George", "Ringo"]
+let beatles = firstHalf + secondHalf
+
+// 
