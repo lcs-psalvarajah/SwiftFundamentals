@@ -25,6 +25,7 @@ let division = secondScore / firstScore
 let remainder = 13 % secondScore
 
 
+
 // Operator overloading
 
 let mathScore = 87
@@ -41,4 +42,16 @@ let firstHalf = ["John", "Paul"]
 let secondHalf = ["George", "Ringo"]
 let beatles = firstHalf + secondHalf
 
-// 
+
+
+// Compound assignment operators
+
+var score = 95
+score -= 5
+
+var quote = "The rain in Spain falls mainly on the "
+quote += "Spaniards"
+
+
+
+// Com
