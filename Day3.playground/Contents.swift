@@ -29,7 +29,7 @@ let remainder = 13 % secondScore
 // Operator overloading
 
 let mathScore = 87
-let doubleMath = 87 +87
+let doubleMath = 87 + 87
 
     //But + also joins strings, like this:
 
@@ -54,4 +54,14 @@ quote += "Spaniards"
 
 
 
-// Com
+// Comparison operators
+
+let oneScore = 6
+let twoScore = 4
+
+oneScore == twoScore
+oneScore != twoScore
+
+firstScore < secondScore
+firstScore >= secondScore
+
