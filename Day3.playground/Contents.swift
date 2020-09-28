@@ -46,8 +46,8 @@ let beatles = firstHalf + secondHalf
 
 // Compound assignment operators
 
-var score = 95
-score -= 5
+var scores = 95
+scores -= 5
 
 var quote = "The rain in Spain falls mainly on the "
 quote += "Spaniards"
@@ -82,3 +82,48 @@ if firstCard + secondCard == 2 {
     print("Regular cards")
 }
 
+
+
+// The ternary operator
+
+let oneCard = 11
+let twoCard = 10
+print(oneCard == twoCard ? "Cards are the same" : "Cards are different")
+
+if oneCard == twoCard {
+    print("Cards are the same")
+} else {
+    print("Cards are different")
+}
+
+
+
+// Switch statements
+
+let weather = "sunny"
+
+switch weather {
+case "rain":
+    print("Bring an umbrella")
+case "snow":
+    print("Wrap up warm")
+case "sunny":
+    print("Wear sunscreen")
+default:
+    print("Enjoy your day!")
+}
+
+
+
+//range operators
+
+let score = 85
+
+switch score {
+case 0..<50:
+    print("You failed badly.")
+case 50..<85:
+    print("You did OK.")
+default:
+    print("You did great!")
+}
