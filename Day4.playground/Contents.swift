@@ -32,5 +32,25 @@ for _ in 1...5 {
 
 
 
+//While loops
 
+var number = 1
+
+while number <= 17 {
+    print(number)
+    number += 1
+}
+
+print("ready or not here I come?")
+
+
+
+// Repeat loops
+
+repeat {
+    print(number)
+    number += 1
+} while number <= 20
+
+print("ready or not here I come?")
 
