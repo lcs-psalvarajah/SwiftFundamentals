@@ -75,4 +75,19 @@ while blastOff >= 0 {
 
 
 
-//
+//Exiting multiple loops
+
+
+outerLoop: for i in 1...8 {
+    for j in 1...8 {
+        let product = i * j
+        print("\(i) * \(j) is \(product)")
+        
+        if product == 16 {
+            print(" did you thats my age?")
+            break outerLoop
+        }
+    }
+}
+
+
