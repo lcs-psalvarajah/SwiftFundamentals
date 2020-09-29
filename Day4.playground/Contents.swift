@@ -101,5 +101,19 @@ for p in 1...10 {
     print(p)
 }
 
-// Remember, the remainder operator (%) figures out how many times 2 fits into each number in our loop, then returns whatever is left over. So, if 1 is left over, it means the number is odd, so we can use continue to skip it.
+    // Remember, the remainder operator (%) figures out how many times 2 fits into each number in our loop, then returns whatever is left over. So, if 1 is left over, it means the number is odd, so we can use continue to skip it.
 
+
+
+//Infinite loops
+
+var counter = 0
+
+while true {
+    print("spaghetti")
+    counter += 1
+    
+    if counter == 67 {
+        break
+    }
+}
