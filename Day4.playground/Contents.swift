@@ -9,4 +9,28 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 
 import Cocoa
 
-var str = "Hello, playground"
+
+// Loops
+
+let count = 1...7
+
+for number in count {
+    print("Number is \(number)")
+}
+
+let names = ["jina", "carl", "bobby"]
+
+for names in names {
+    print("\(names) is cool")
+}
+
+print("jina is")
+
+for _ in 1...5 {
+    print("awesome")
+}
+
+
+
+
+
