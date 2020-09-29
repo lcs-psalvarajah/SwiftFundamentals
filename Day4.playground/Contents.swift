@@ -54,3 +54,25 @@ repeat {
 
 print("ready or not here I come?")
 
+
+
+// Exiting loops
+
+var blastOff = 14
+
+while blastOff >= 0 {
+    print (blastOff)
+    
+    if blastOff == 8 {
+        print("THis is lame. Gotta bounce! :P")
+        break
+    }
+    
+    blastOff -= 1
+}
+
+    //With that change, as soon as countDown reaches 8 the astronaut’s message will be printed, and the rest of the loop gets skipped.
+
+
+
+//
