@@ -74,3 +74,46 @@ func greet(_ person: String) {
 greet("Jina")
 
 
+//default parameters
+
+func greet (_ person: String, nicely: Bool = true) {
+    if nicely == true {
+        print("Hello, \(person), you look not ugly today!")
+    } else {
+        print ("Ew it's, \(person) again")
+    }
+}
+
+greet("chicken")
+
+greet("carl", nicely: false)
+
+
+// Variadic functions
+
+print(" Snitches", "get", "stiches")
+
+func squareThree(number: Int...) {
+    for number in number {
+        print("\(number) squared is \(number * number)")
+    }
+}
+
+squareThree( number: 1, 4, 6 , 7 ,8)
+
+
+
+// Writing throwing functions
+
+
+
+
+
+
+
+
+
+
+
+
+
