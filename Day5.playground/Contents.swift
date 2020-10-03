@@ -9,4 +9,41 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 
 import Cocoa
 
-var str = "Hello, playground"
+
+// Writing Functions
+
+func jinaBrain() {
+    let message = """
+    Welcome to my brain!
+    Run this app to see what goes on in here and
+    MyApp will provide pictures and demonstartions of my thoughts
+    """
+    
+    print(message)
+}
+
+jinaBrain()
+
+func printHelp() {
+    let message = """
+Welcome to MyApp!
+
+Run this app inside a directory of images and
+MyApp will resize them all into thumbnails
+"""
+
+    print(message)
+}
+
+printHelp()
+
+// Accepting Parameters
+
+func square (number: Int) {
+    print(number * number)
+}
+
+square (number: 37)
+
+
+// Returning Values
