@@ -47,3 +47,30 @@ square (number: 37)
 
 
 // Returning Values
+
+func squareTwo (number: Int) -> Int {
+    return number * number
+}
+let result = square(number: 20)
+print(result)
+
+
+
+// Parameter labels
+
+func sayHello(to name: String) {
+    print ("Hello, \(name)!")
+}
+
+sayHello(to: "Jina")
+
+
+// Omitting parameter labels
+
+func greet(_ person: String) {
+    print("Hello, \(person)")
+}
+
+greet("Jina")
+
+
