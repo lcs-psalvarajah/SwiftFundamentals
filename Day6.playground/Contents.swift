@@ -9,4 +9,37 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 
 import Cocoa
 
-var str = "Hello, playground"
+// making basic closures
+
+let driving = {
+    print("I'm driving in my car")
+}
+
+driving()
+
+
+
+// accepting parameters in closures
+
+let flying = { (place: String) in
+    print("Im going to fly to \(place) in a plane")
+}
+
+flying("Malaysia")
+
+
+// Returning values from a closure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
