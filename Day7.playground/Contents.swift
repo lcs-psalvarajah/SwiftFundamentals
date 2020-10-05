@@ -32,7 +32,7 @@ func traveltwo (action: (String) -> String) {
     print("I have arrived!")
 }
 
-travel { (place: String ) -> String in
+traveltwo { (place: String ) -> String in
     return "I'm going to \(place) in a plane"
 }
 
@@ -41,15 +41,27 @@ travel { (place: String ) -> String in
 
 func travelThree(action: (String) -> String) {
     print("I'm getting ready to go")
-    let description = action("London")
+    let description = action("Tokyo")
     print(description)
     print("I have arrived")
 }
-travel { place in
-     "I'm going to \($0) in my car"
+
+travelThree { place in
+     "I'm driving to \(place) in my car"
 }
 
 
+//closures with multiple parameters
 
+func driving(action: (String, Int) -> String) {
+    print("I'm getting ready to go.")
+    let description = action("Saudi", 120)
+    print(description)
+    print("I arrived")
+}
+
+driving {
+    "I'm going to \($0) at \($1) miles per hour."
+}
 
 
