@@ -39,8 +39,15 @@ travel { (place: String ) -> String in
 
 //shorthand parameter names
 
-
-
+func travelThree(action: (String) -> String) {
+    print("I'm getting ready to go")
+    let description = action("London")
+    print(description)
+    print("I have arrived")
+}
+travel { place in
+     "I'm going to \($0) in my car"
+}
 
 
 
