@@ -30,14 +30,42 @@ flying("Malaysia")
 
 // Returning values from a closure
 
+let flyingWithReturn = { (place: String) -> String in
+    return "Im going to fly to \(place) in a plane"
+    
+}
+
+let message = flyingWithReturn("Laos")
+print (message)
 
 
 
+// closures as parameters
+
+let flyingtwo = {
+    print("Im flying inside of a plane")
+}
+func travel(action: () -> Void) {
+    print("I'm getting ready to go.")
+    action()
+    print("I have arrived")
+}
+
+travel(action: flyingtwo)
 
 
+// trailing closure syntax
 
 
+//func travel(action: () -> Void) {
+//    print("I'm getting ready to go.")
+//    action()
+//    print("I have arrived")
+//}
 
+travel {
+    print ("I'm flying in an airplane")
+}
 
 
 
