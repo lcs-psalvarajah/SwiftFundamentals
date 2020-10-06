@@ -65,3 +65,41 @@ driving {
 }
 
 
+// Returning closures from functions
+
+func travelFour() -> (String) -> Void {
+    return {
+        print("I'm going to \($0)")
+    }
+}
+
+
+let result2 = travelFour()("London")
+
+
+
+// capturing values
+
+func flying() -> (String) -> Void {
+    var counter = 1
+return {
+    print("\(counter). I'm going to \($0)")
+    counter += 1
+    }
+}
+
+let result3 = flying()
+    
+result3("London")
+result3("Tokyo")
+result3("Malaysia")
+
+
+
+
+
+
+
+
+
+
