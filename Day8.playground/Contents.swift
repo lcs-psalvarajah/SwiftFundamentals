@@ -75,6 +75,19 @@ let kualaLumpar = City(population: 7_780_000)
 kualaLumpar.collectTaxes()
 
 
+// Mutating Methods
+
+struct Person {
+    var name: String
+
+    mutating func makeAnonymous() {
+        name = "Anonymous"
+    }
+}
+
+var person = Person(name: "Ed")
+person.makeAnonymous()
+
 
 
 
