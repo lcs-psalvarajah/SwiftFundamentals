@@ -89,6 +89,24 @@ var person = Person(name: "Ed")
 person.makeAnonymous()
 
 
+// Properties and methods of strings
+
+let string = "Hello, my name is jina, and I have a neutral opinion on marshmellows"
+
+print(string.count)
+
+print(string.hasPrefix("Hello"))
+
+print(string.uppercased())
+
+print(string.lowercased())
+
+print(string.sorted())
+
+
+// Properties and methods of arrays
+
+
 
 
 
