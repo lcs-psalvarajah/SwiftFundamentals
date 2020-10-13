@@ -106,6 +106,25 @@ print(string.sorted())
 
 // Properties and methods of arrays
 
+var toys = ["Woody", "Rex"]
+
+    // You can read the number of items in an array using its count property:
+print(toys.count)
+
+    //If you want to add a new item, use the append() method like this:
+toys.append("Buzz")
+
+    //You can locate any item inside an array using its firstIndex() method
+toys.firstIndex(of: "Buzz")
+
+    // you can have Swift sort the items of the array alphabetically:
+print(toys.sorted())
+
+    // to remove an item, use the remove()
+toys.remove(at: 0)
+
+
+
 
 
 
