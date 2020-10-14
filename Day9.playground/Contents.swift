@@ -9,6 +9,37 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 
 import Cocoa
 
+// Intializers
+
+//struct User {
+//    var username: String
+//}
+//
+//var user = User(username: "twostraws")
+
+struct User {
+    var username: String
+
+    init() {
+        username = "Anonymous"
+        print("Creating a new user!")
+    }
+}
+
+var user = User()
+user.username = "twostraws"
+
+
+// Referring to the current instance
+
+struct Person {
+    var name: String
+
+    init(name: String) {
+        print("\(name) was born!")
+        self.name = name
+    }
+}
 
 
 
