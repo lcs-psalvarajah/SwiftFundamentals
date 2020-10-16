@@ -80,15 +80,13 @@ print(Student.classSize)
 
 // access code
 
-struct Person {
-    private var id: String
-
-    init(id: String) {
-        self.id = id
-    }
-}
-
-let jina = Person(id: "721978")
+//struct Person {
+//    private var id: String
+//
+//    init(id: String) {
+//        self.id = id
+//    }
+//}
 
 struct Person {
     private var id: String
@@ -101,6 +99,9 @@ struct Person {
         return "My social security number is \(id)"
     }
 }
+
+let Jina = Person(id: "721978")
+
 
 
 

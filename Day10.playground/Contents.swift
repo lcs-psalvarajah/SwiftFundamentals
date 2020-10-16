@@ -9,4 +9,35 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 
 import Cocoa
 
-var str = "Hello, playground"
+// Creating your own classes
+
+
+// classes never come with a memberwise initializer. This means if you have properties in your class, you must always create your own initializer.
+
+class Dog {
+    var name: String
+    var breed: String
+
+    init(name: String, breed: String) {
+        self.name = name
+        self.breed = breed
+    }
+}
+
+let poppy = Dog(name: "Poppy", breed: "Poodle")
+
+
+// class inheritance
+
+// you can create a class based on an existing class – it inherits all the properties and methods of the original class, and can add its own on top.
+
+class Poodle: Dog {
+
+    super.init(name: name, breed: "Poodle")
+    }
+
+}
+
+
+
+
