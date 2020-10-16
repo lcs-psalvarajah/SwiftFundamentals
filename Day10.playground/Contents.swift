@@ -32,12 +32,46 @@ let poppy = Dog(name: "Poppy", breed: "Poodle")
 // you can create a class based on an existing class – it inherits all the properties and methods of the original class, and can add its own on top.
 
 class Poodle: Dog {
-
-    super.init(name: name, breed: "Poodle")
+    init(name: String) {
+        super.init(name: name, breed: "Poodle")
     }
+}
 
+//Overriding methods
+
+//Child classes can replace parent methods with their own implementations
+
+
+class DogTwo {
+    func makeNoise() {
+        print("Woof!")
+    }
 }
 
 
+class Corgi: DogTwo {
+    override func makeNoise() {
+        print("Yip!")
+    }
+}
+    
 
+
+let greg = Corgi()
+greg.makeNoise()
+
+
+// Final classes
+
+//Swift gives us a final keyword just for this purpose: when you declare a class as being final, no other class can inherit from it. This means they can’t override your methods in order to change your behavior – they need to use your class the way it was written.
+
+final class DogThree {
+    var names: String
+    var type: String
+
+    init(names: String, type: String) {
+        self.names = names
+        self.type = type
+    }
+}
 
