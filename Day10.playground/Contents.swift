@@ -120,11 +120,11 @@ for _ in 1...3 {
 
 //However, if you have a constant class with a variable property, that property can be changed.
 
-class Singer {
-    let name = "Taylor Swift"
+class singer2 {
+    var name = "Taylor Swift"
 }
 
-let taylor = Singer()
+let taylor = singer2()
 taylor.name = "Ed Sheeran"
 print(taylor.name)
 
